@@ -33,7 +33,7 @@ const Contacts = () => {
             <div className="d-flex flex-column">
                 <main className="flex-shrink-0">
                     {/* Navigation */}
-                    <nav className="navbar navbar-expand-lg navbar-light bg-white py-3">
+                    <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 ">
                         <div className="container px-5">
                             <Link className="navbar-brand" to="/"><span className="fw-bolder text-primary">Vaibhav Sharma</span></Link>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>

@@ -14,7 +14,7 @@ const Try = () => {
 
   return (
     <div>
-      <form onSubmit={handleFormSubmit}>
+      {/* <form onSubmit={handleFormSubmit}>
         <label htmlFor="email">Email Address</label>
         <input id="email" type="email" name="email" />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
@@ -28,7 +28,16 @@ const Try = () => {
         <div>
           Thank you for your submission! We will get back to you soon.
         </div>
-      )}
+      )} */}
+      <div class="project-card-view card">
+                    <img class="card-img-top" src="/static/media/Admin-Panel-Dashboard.c97506c9510babb9ec52.png" alt="card-img"/>
+                        <div class="card-body">
+                            <div class="card-title h5">Dashboard Panel</div>
+                            <p class="card-text" style="text-align: justify;">User Admin Dashboard created with React js, Material UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid to build this entire application. This application consists of Light and Dark Mode, four different Charts, three different Data Table Pages, FAQ Page, Form Page, and Calendar Integration.</p>
+                            <a role="button" tabindex="0" href="https://rahul-dashboard-pannel.netlify.app" target="_blank" class="viewbtn btn btn-primary">View</a>
+
+                    </div>
+                    </div>
     </div>
   );
 };
